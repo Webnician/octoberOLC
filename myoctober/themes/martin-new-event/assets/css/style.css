@@ -526,18 +526,23 @@ footer {
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/sheratonNewOrleans2.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    color: white;
 }
 
 #venue p {
   padding-top: 12px;
   padding-bottom: 18px;
+    color: white;
 }
 
+#venue a{
+    color: #f9a400;
+}
 
 
 /*---------------------------------------
