@@ -558,19 +558,22 @@ footer {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/innovate-iphone2.png') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
+    color: white;
 }
 
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
+    color: white;
 }
 
 #contact .contact_detail {
   background: #ffffff;
   padding: 5rem 5rem 12rem 5rem;
+    color:white;
 }
 
 #contact .form-control {
@@ -605,7 +608,9 @@ footer {
 #contact input[type="submit"]:hover {
   background: #f2545f;
 }
-
+ #contact p {
+     color: white;
+ }
 
 
 /*---------------------------------------
