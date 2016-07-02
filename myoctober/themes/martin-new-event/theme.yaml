@@ -15,7 +15,7 @@ form:
             settings_brand:
                 tab    : Settings
                 label  : Brand
-                type   : image
+                type   : text
                 default: event
                 span   : left
             settings_gotop:
