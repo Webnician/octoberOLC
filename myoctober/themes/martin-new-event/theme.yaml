@@ -15,8 +15,8 @@ form:
             settings_brand:
                 tab    : Settings
                 label  : Brand
-                type   : text
-                default: New Event
+                type   : image
+                default: event
                 span   : left
             settings_gotop:
                 tab    : Settings
@@ -70,12 +70,12 @@ form:
                 tab    : Intro
                 label  : Line 1
                 type   : text
-                default: July 22 - 26 in San Francisco, CA
+                default: April 18-22 2017 New Orleans, LA
             intro_line2:
                 tab    : Intro
                 label  : Line 2
                 type   : text
-                default: July Web Design Conference
+                default: OLC Innovate Conference
 
             ###################################################################
             # partials/template/overview.htm

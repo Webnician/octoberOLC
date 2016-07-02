@@ -64,6 +64,18 @@ return [
             'prefix'    => '',
         ],
 
+        'mysql2' => [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'port'      => '3306',
+            'database'  => 'drupaldb2',
+            'username'  => 'root',
+            'password'  => 'rooty',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ],
+
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => 'localhost',
